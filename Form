@@ -1,0 +1,12 @@
+<title>Web Response  Demo Form</title>
+<head>Demo Form</head>
+<body>
+
+<form action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="e5392a51-5e65-47d5-a0a9-42940aaa9be5">
+<h2>Name:<input type="text" name="name" required><h2>
+<h2>Email:<input type="email" name="email" required><h2>
+<h2>Message:<textarea name="message" required></textarea><h2>
+<button  type="submit">Submit Form</button>
+</form>
+</body>
