@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: cyan;
+    font-family: consolas;
+    box-shadow: 0px 0px 5px cyan,
+    0px 0px 25px cyan;
+}
+
+button:hover {
+    box-shadow: 0px 0px 5px cyan,
+    0px 0px 25px cyan,
+    0px 0px 50px cyan,
+    0px 0px 100px cyan;
+}
